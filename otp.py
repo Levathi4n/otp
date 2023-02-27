@@ -1,8 +1,5 @@
 import requests
-import aiohttp
-import random as r 
-import discord
-from discord.ext import commands
+import random as r
 
 def otp():
   url = '' #your webhook discord

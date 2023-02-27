@@ -5,7 +5,7 @@ import discord
 from discord.ext import commands
 
 def otp():
-  webook_discord = '' #your webhook discord
+  url = '' #your webhook discord
   otp = r.randint(50, 250) + r.randint(70,120)
   data = {
     "username" : "OTP Logs",
